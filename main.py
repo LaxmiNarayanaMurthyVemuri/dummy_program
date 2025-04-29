@@ -14,7 +14,7 @@ async def root():
 @app.get("/courses/{category}")
 async def get_course(category: str):
     # category will be URL-decoded automatically
-    data = courses.get(category)
+    data = courses
     if data is None:
         raise HTTPException(status_code=404, detail="Category not found")
     return data
