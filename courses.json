@@ -1,0 +1,29 @@
+{
+  "Introduction to Python": {
+    "Basics of Python": 3,
+    "Data Structures": 4,
+    "Functions and Modules": 3.5,
+    "File Handling": 2,
+    "Object-Oriented Programming in Python": 5
+  },
+  "Web Development Fundamentals": {
+    "HTML Basics": 2.5,
+    "CSS Styling": 3,
+    "JavaScript Introduction": 4,
+    "DOM Manipulation": 3,
+    "Introduction to Web Frameworks": 4
+  },
+  "Data Science with R": {
+    "R Programming Basics": 3,
+    "Data Import and Cleaning": 4.5,
+    "Data Visualization with ggplot2": 4,
+    "Introduction to Statistical Models": 5,
+    "Machine Learning Concepts in R": 6
+  },
+  "Cloud Computing Basics": {
+    "Introduction to Cloud Concepts": 2,
+    "Understanding IaaS, PaaS, SaaS": 3,
+    "Introduction to AWS/Azure/GCP": 4,
+    "Cloud Security Fundamentals": 3
+  }
+}
