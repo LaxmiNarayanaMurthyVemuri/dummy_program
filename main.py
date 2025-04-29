@@ -18,3 +18,9 @@ async def get_course(category: str):
     if data is None:
         raise HTTPException(status_code=404, detail="Category not found")
     return data
+
+# new /leader route
+@app.get("/leader")
+async def get_leader():
+    return {"name": "shereen"}
+
